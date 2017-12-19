@@ -14,3 +14,4 @@
 * "Erdenay Özkanlı" <erdenayozkanli@gmail.com>
 * "Vahdet Cemil Altun" <vahdet.altun@std.hku.edu.tr>
 * "Seydi Demir" <seydi.demir@std.hku.edu.tr>
+* "Zeynep Toy" <zeynep.toy@std.hku.edu.tr>
