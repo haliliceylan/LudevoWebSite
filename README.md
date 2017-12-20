@@ -15,6 +15,7 @@
 * "Vahdet Cemil Altun" <vahdet.altun@std.hku.edu.tr>
 * "Seydi Demir" <seydi.demir@std.hku.edu.tr>
 * "Zeynep Toy" <zeynep.toy@std.hku.edu.tr>
+* "Mehmet TAŞ" <mehmet.tas@std.hku.edu.tr>
 * "Semih Serbetci" <semihserbetci@gmail.com>
 * "Mehmed Abdullah Çavaş" <macavas63@outlook.com>
 * "Hüseyin Faruk Göktaş" <goktashuseyn@gmail.com>
