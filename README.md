@@ -20,4 +20,4 @@
 * "Semih Serbetci" <semihserbetci@gmail.com>
 * "Mehmed Abdullah Çavaş" <macavas63@outlook.com>
 * "Hüseyin Faruk Göktaş" <goktashuseyn@gmail.com>
-* "Ayşenur Yılmaz" <aysenur.yılmaz@std.hku.edu.tr>
+* "Ayşenur Yılmaz" <aysenur.yilmaz@std.hku.edu.tr>
