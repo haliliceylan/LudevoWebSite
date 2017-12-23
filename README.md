@@ -1,4 +1,3 @@
-
 # Ludevo Web Page
 
 ## Table of Contents
