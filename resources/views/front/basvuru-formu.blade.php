@@ -10,8 +10,8 @@
 
 	<div class="info"><a href="https://www.grandvincent-marion.fr" target="_blank"><p> LUDEVO<i class="fa fa-heart"></i> SOFTWARE DEVELOPMENT TEAM </p></a></div>
 
-	<form>
-
+	<form method="POST">
+		{!! csrf_field() !!}
 		<h1>Lütfen Aşağıdaki Formu Doldurunuz</h1>
 		<div class="contentform">
 			<div id="sendmessage"> Your message has been sent successfully. Thank you. </div>
