@@ -21,6 +21,7 @@ class CreateApplyFormsTable extends Migration
             $table->string('phone',50);
             $table->string('position',50);
             $table->text('hear');
+            $table->text('why');
             $table->string('linkedin_url',250)->nullable();
             $table->text('about');
             $table->integer('status')->default(0);
