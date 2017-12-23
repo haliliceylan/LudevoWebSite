@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/basvuru-formu',function(){
+	return view('front.basvuru-formu');
+});
