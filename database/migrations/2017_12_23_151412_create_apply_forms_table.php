@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
 class CreateApplyFormsTable extends Migration
 {
@@ -15,17 +15,17 @@ class CreateApplyFormsTable extends Migration
     {
         Schema::create('apply_forms', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('first_name',50);
-            $table->string('last_name',50);
-            $table->string('email',50);
-            $table->string('phone',50);
-            $table->string('position',50);
+            $table->string('first_name', 50);
+            $table->string('last_name', 50);
+            $table->string('email', 50);
+            $table->string('phone', 50);
+            $table->string('position', 50);
             $table->text('hear');
             $table->text('why');
-            $table->string('linkedin_url',250)->nullable();
+            $table->string('linkedin_url', 250)->nullable();
             $table->text('about');
             $table->integer('status')->default(0);
-            $table->string('gender',10);
+            $table->string('gender', 10);
             $table->integer('question_id')->nullable();
             $table->text('answer')->nullable();
             $table->timestamps();

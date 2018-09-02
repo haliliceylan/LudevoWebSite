@@ -14,5 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/basvuru-formu','front\pageController@show_basvuru_formu');
-Route::post('/basvuru-formu','front\pageController@post_basvuru_formu');
+Route::get('/basvuru-formu', 'front\pageController@show_basvuru_formu');
+Route::post('/basvuru-formu', 'front\pageController@post_basvuru_formu');
