@@ -30,7 +30,8 @@ class ApplyFormController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
+     *
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -41,7 +42,8 @@ class ApplyFormController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\ApplyForm  $applyForm
+     * @param \App\ApplyForm $applyForm
+     *
      * @return \Illuminate\Http\Response
      */
     public function show(ApplyForm $applyForm)
@@ -52,7 +54,8 @@ class ApplyFormController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\ApplyForm  $applyForm
+     * @param \App\ApplyForm $applyForm
+     *
      * @return \Illuminate\Http\Response
      */
     public function edit(ApplyForm $applyForm)
@@ -63,8 +66,9 @@ class ApplyFormController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\ApplyForm  $applyForm
+     * @param \Illuminate\Http\Request $request
+     * @param \App\ApplyForm           $applyForm
+     *
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, ApplyForm $applyForm)
@@ -75,7 +79,8 @@ class ApplyFormController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\ApplyForm  $applyForm
+     * @param \App\ApplyForm $applyForm
+     *
      * @return \Illuminate\Http\Response
      */
     public function destroy(ApplyForm $applyForm)
